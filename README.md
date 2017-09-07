@@ -1,3 +1,6 @@
+
+//使用
+
 //音频
     [PlayModel shareInstance].playDelegate = self;
     [[PlayModel shareInstance] initAudioPlayerWithUrl:[NSURL URLWithString:@""]];
